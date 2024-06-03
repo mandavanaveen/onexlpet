@@ -6,6 +6,7 @@ import Home from "./Home";
 import Categories from "./Categories";
 import Register from "./Register";
 import Signin from "./Signin";
+import Vector1 from "./images/Vector1.png";
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null);
@@ -34,7 +35,7 @@ function App() {
           <Route path="/signin" element={<Signin onSignIn={handleSignIn} />} />
         </Routes>
         <img
-          src="./images/Vector1.png"
+          src={Vector1}
           className="-z-10 w-[1474px] h-[696px]"
           alt="bg back"
         ></img>

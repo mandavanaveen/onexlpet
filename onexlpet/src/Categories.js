@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import Scrollinfo from "./Scrollinfo";
 import { useLocation } from "react-router-dom";
-
 import "@fontsource/playfair-display";
 import "./App.css";
 import opaw from "./orangepaw.svg";
@@ -13,6 +12,10 @@ import palmlogo from "./palmlogo.svg";
 import petlunch from "./petlunch.svg";
 import ppaw2 from "./ppaw.svg";
 import tag from "./tag.svg";
+import gwdbluebg from "./images/gwdbluebg.png";
+import cwdorangebg from "./images/cwdorangebg.png";
+import gwdgreenbg from "./images/gwdgreenbg.png";
+import mwdfairbg from "./images/mwdfairbg.png";
 
 function Categories() {
   const location = useLocation();
@@ -499,28 +502,28 @@ function Categories() {
       <motion.div className="overflow-y-hidden">
         <motion.img
           className="absolute mt-[36px] ml-[729px]"
-          src="./onexlpet/gwdbluebg.png"
+          src={gwdbluebg}
           alt="image1"
           initial={{ x: 0, y: 0, scale: 1, opacity: 0 }}
           animate={controls1}
         />
         <motion.img
           className="absolute mt-[26px] ml-[729px]"
-          src="./onexlpet/cwdorangebg.png"
+          src={cwdorangebg}
           alt="image2"
           initial={{ x: 0, y: 0, scale: 1, opacity: 0 }}
           animate={controls2}
         />
         <motion.img
           className="absolute mt-[36px] ml-[729px]"
-          src="./onexlpet/gwdgreenbg.png"
+          src={gwdgreenbg}
           alt="image3"
           initial={{ x: 0, y: 0, scale: 1, opacity: 0 }}
           animate={controls3}
         />
         <motion.img
           className="absolute mt-[36px] ml-[729px]"
-          src="./onexlpet/mwdfairbg.png"
+          src={mwdfairbg}
           alt="image4"
           initial={{ x: 0, y: 0, scale: 1, opacity: 0 }}
           animate={controls4}

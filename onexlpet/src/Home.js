@@ -14,7 +14,11 @@ import ball from "./ballpaw.svg";
 import petlunch from "./petlunch.svg";
 import paw from "./paw.svg";
 import ppaw2 from "./ppaw2.svg";
-// import bglgreen from "./images/bglgreen.png";
+import bglgreen from "./images/bglgreen.png";
+import bgblue from "./images/bgblue.png";
+import bgyellow from "./images/bgyellow.png";
+import bggreen from "./images/bggreen.png";
+import bgorange from "./images/bgorange.png";
 
 function Home() {
   const [scrollCount, setScrollCount] = useState(0);
@@ -580,7 +584,7 @@ function Home() {
       <motion.div className="overflow-y-hidden">
         <motion.img
           className="absolute mt-[88px] ml-[685.58px] "
-          src="./onexlpet/bglgreen.png"
+          src={bglgreen}
           alt="image1"
           initial={{ x: 0, y: 0, scale: 1 }}
           animate={controls1}
@@ -589,7 +593,7 @@ function Home() {
 
         <motion.img
           className="absolute mt-[36px] ml-[1187px]"
-          src="./onexlpet/bgblue.png"
+          src={bgblue}
           alt="image2"
           initial={{ x: 0, y: 0, scale: 1 }}
           animate={controls2}
@@ -598,7 +602,7 @@ function Home() {
 
         <motion.img
           className="absolute mt-[412px] ml-[750px]"
-          src="./onexlpet/bgyellow.png"
+          src={bgyellow}
           alt="image3"
           initial={{ x: 0, y: 0, scale: 1 }}
           animate={controls3}
@@ -607,7 +611,7 @@ function Home() {
 
         <motion.img
           className="absolute mt-[464px] ml-[1070px]"
-          src="./onexlpet/bggreen.png"
+          src={bggreen}
           alt="image4"
           initial={{ x: 0, y: 0, scale: 1 }}
           animate={controls4}
@@ -616,7 +620,7 @@ function Home() {
 
         <motion.img
           className="absolute mt-[89px] ml-[886px]"
-          src="./onexlpet/bgorange.png"
+          src={bgorange}
           alt="image5"
           initial={{ x: 0, y: 0, scale: 1 }}
           animate={controls5}
