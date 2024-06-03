@@ -1,9 +1,19 @@
 {
   "files": {
     "main.css": "/onexlpet/static/css/main.6f92b6d8.css",
-    "main.js": "/onexlpet/static/js/main.5eed4ea8.js",
+    "main.js": "/onexlpet/static/js/main.5965b36b.js",
+    "static/media/gwdbluebg.png": "/onexlpet/static/media/gwdbluebg.0d4185286e67806ec08c.png",
+    "static/media/cwdorangebg.png": "/onexlpet/static/media/cwdorangebg.343648a7d62049cad7f5.png",
+    "static/media/bgorange.png": "/onexlpet/static/media/bgorange.b5dae83ef89991f260ab.png",
+    "static/media/gwdgreenbg.png": "/onexlpet/static/media/gwdgreenbg.fa6e514315198ed7b20c.png",
+    "static/media/bgblue.png": "/onexlpet/static/media/bgblue.1fe1132aa38793a6948c.png",
+    "static/media/bggreen.png": "/onexlpet/static/media/bggreen.c2988b8c5dcd29bf8177.png",
+    "static/media/mwdfairbg.png": "/onexlpet/static/media/mwdfairbg.a377c56f43a584c0f638.png",
+    "static/media/bgyellow.png": "/onexlpet/static/media/bgyellow.a92f22e486ceb974b87e.png",
+    "static/media/bglgreen.png": "/onexlpet/static/media/bglgreen.9ec43af3743ab13bd7cc.png",
     "static/media/playfair-display-latin-400-normal.woff": "/onexlpet/static/media/playfair-display-latin-400-normal.9c7c1543d792cb6bb2b2.woff",
     "static/media/playfair-display-latin-400-normal.woff2": "/onexlpet/static/media/playfair-display-latin-400-normal.01127cbe42de896f8511.woff2",
+    "static/media/Vector1.png": "/onexlpet/static/media/Vector1.0efb630e8a9e38056d9b.png",
     "static/media/josefin-sans-latin-400-normal.woff": "/onexlpet/static/media/josefin-sans-latin-400-normal.8df978cec4cb954d6e06.woff",
     "static/media/playfair-display-latin-ext-400-normal.woff": "/onexlpet/static/media/playfair-display-latin-ext-400-normal.9ea2943ecdca370550c2.woff",
     "static/media/roboto-latin-400-normal.woff2": "/onexlpet/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
@@ -48,10 +58,10 @@
     "index.html": "/onexlpet/index.html",
     "static/media/arrow.svg": "/onexlpet/static/media/arrow.89a3b298be2c752be6769ec9901a6d36.svg",
     "main.6f92b6d8.css.map": "/onexlpet/static/css/main.6f92b6d8.css.map",
-    "main.5eed4ea8.js.map": "/onexlpet/static/js/main.5eed4ea8.js.map"
+    "main.5965b36b.js.map": "/onexlpet/static/js/main.5965b36b.js.map"
   },
   "entrypoints": [
     "static/css/main.6f92b6d8.css",
-    "static/js/main.5eed4ea8.js"
+    "static/js/main.5965b36b.js"
   ]
 }
