@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/onexlpet/static/css/main.6f92b6d8.css",
-    "main.js": "/onexlpet/static/js/main.21116435.js",
+    "main.js": "/onexlpet/static/js/main.621b2851.js",
     "static/media/playfair-display-latin-400-normal.woff": "/onexlpet/static/media/playfair-display-latin-400-normal.9c7c1543d792cb6bb2b2.woff",
     "static/media/playfair-display-latin-400-normal.woff2": "/onexlpet/static/media/playfair-display-latin-400-normal.01127cbe42de896f8511.woff2",
     "static/media/josefin-sans-latin-400-normal.woff": "/onexlpet/static/media/josefin-sans-latin-400-normal.8df978cec4cb954d6e06.woff",
@@ -48,10 +48,10 @@
     "index.html": "/onexlpet/index.html",
     "static/media/arrow.svg": "/onexlpet/static/media/arrow.89a3b298be2c752be6769ec9901a6d36.svg",
     "main.6f92b6d8.css.map": "/onexlpet/static/css/main.6f92b6d8.css.map",
-    "main.21116435.js.map": "/onexlpet/static/js/main.21116435.js.map"
+    "main.621b2851.js.map": "/onexlpet/static/js/main.621b2851.js.map"
   },
   "entrypoints": [
     "static/css/main.6f92b6d8.css",
-    "static/js/main.21116435.js"
+    "static/js/main.621b2851.js"
   ]
 }
