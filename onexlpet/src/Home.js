@@ -579,7 +579,7 @@ function Home() {
       <motion.div className="overflow-y-hidden">
         <motion.img
           className="absolute mt-[88px] ml-[685.58px]"
-          src="./images/bglgreen.png"
+          src="../images/bglgreen.png"
           alt="image1"
           initial={{ x: 0, y: 0, scale: 1 }}
           animate={controls1}
