@@ -499,28 +499,28 @@ function Categories() {
       <motion.div className="overflow-y-hidden">
         <motion.img
           className="absolute mt-[36px] ml-[729px]"
-          src="./images/gwdbluebg.png"
+          src="./onexlpet/gwdbluebg.png"
           alt="image1"
           initial={{ x: 0, y: 0, scale: 1, opacity: 0 }}
           animate={controls1}
         />
         <motion.img
           className="absolute mt-[26px] ml-[729px]"
-          src="./images/cwdorangebg.png"
+          src="./onexlpet/cwdorangebg.png"
           alt="image2"
           initial={{ x: 0, y: 0, scale: 1, opacity: 0 }}
           animate={controls2}
         />
         <motion.img
           className="absolute mt-[36px] ml-[729px]"
-          src="./images/gwdgreenbg.png"
+          src="./onexlpet/gwdgreenbg.png"
           alt="image3"
           initial={{ x: 0, y: 0, scale: 1, opacity: 0 }}
           animate={controls3}
         />
         <motion.img
           className="absolute mt-[36px] ml-[729px]"
-          src="./images/mwdfairbg.png"
+          src="./onexlpet/mwdfairbg.png"
           alt="image4"
           initial={{ x: 0, y: 0, scale: 1, opacity: 0 }}
           animate={controls4}
