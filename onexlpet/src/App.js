@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar";
-import Todoapp from "./Todoapp";
+// import Todoapp from "./Todoapp";
 import Home from "./Home";
 import Categories from "./Categories";
 import Register from "./Register";
@@ -25,7 +25,7 @@ function App() {
       <Router>
         <Navbar currentUser={currentUser} onSignOut={handleSignOut} />
         <Routes>
-          <Route path="/products" Component={Todoapp} />
+          {/* <Route path="/products" Component={Todoapp} /> */}
           <Route path="/" Component={Home} />
           <Route path="/categories" Component={Categories} />
           <Route
